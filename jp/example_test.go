@@ -146,11 +146,11 @@ func ExampleMustParseString() {
 			map[string]interface{}{"x": 16, "y": 25, "z": 36},
 		},
 	}
-	x := jp.MustParseString("b[?(@.y > 10)].x")
+	x := jp.MustParseString("b[?(@.y > 10)].__index")
 	fmt.Println(x.String())
 	result := x.Get(data)
 	fmt.Println(oj.JSON(result))
 	// Output:
-	// b[?(@.y > 10)].x
-	// [16]
+	// b[?(@.y > 10)].__index
+	// [1]
 }
