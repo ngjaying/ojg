@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ohler55/ojg"
-	"github.com/ohler55/ojg/gen"
-	"github.com/ohler55/ojg/oj"
-	"github.com/ohler55/ojg/tt"
+	"github.com/ngjaying/ojg"
+	"github.com/ngjaying/ojg/gen"
+	"github.com/ngjaying/ojg/oj"
+	"github.com/ngjaying/ojg/tt"
 )
 
 func TestColor(t *testing.T) {

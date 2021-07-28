@@ -5,7 +5,7 @@ package alt
 import (
 	"fmt"
 
-	"github.com/ohler55/ojg/gen"
+	"github.com/ngjaying/ojg/gen"
 )
 
 var emptySlice = []interface{}{}

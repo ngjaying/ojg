@@ -5,9 +5,9 @@ package alt_test
 import (
 	"testing"
 
-	"github.com/ohler55/ojg/alt"
-	"github.com/ohler55/ojg/gen"
-	"github.com/ohler55/ojg/tt"
+	"github.com/ngjaying/ojg/alt"
+	"github.com/ngjaying/ojg/gen"
+	"github.com/ngjaying/ojg/tt"
 )
 
 type boolData struct {

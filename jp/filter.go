@@ -5,7 +5,7 @@ package jp
 import (
 	"fmt"
 
-	"github.com/ohler55/ojg"
+	"github.com/ngjaying/ojg"
 )
 
 // Filter is a script used as a filter.

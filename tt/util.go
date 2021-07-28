@@ -9,7 +9,7 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/ohler55/ojg/gen"
+	"github.com/ngjaying/ojg/gen"
 )
 
 type call struct {

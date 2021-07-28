@@ -5,8 +5,8 @@ package gen_test
 import (
 	"testing"
 
-	"github.com/ohler55/ojg/gen"
-	"github.com/ohler55/ojg/tt"
+	"github.com/ngjaying/ojg/gen"
+	"github.com/ngjaying/ojg/tt"
 )
 
 func TestGenBuilderArray(t *testing.T) {

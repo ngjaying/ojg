@@ -5,8 +5,8 @@ package asm_test
 import (
 	"fmt"
 
-	"github.com/ohler55/ojg/asm"
-	"github.com/ohler55/ojg/jp"
+	"github.com/ngjaying/ojg/asm"
+	"github.com/ngjaying/ojg/jp"
 )
 
 func ExamplePlan() {

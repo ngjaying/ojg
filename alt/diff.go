@@ -7,7 +7,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/ohler55/ojg/gen"
+	"github.com/ngjaying/ojg/gen"
 )
 
 // TimeTolerance is the tolerance when comparing time elements

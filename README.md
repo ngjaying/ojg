@@ -1,7 +1,7 @@
-# [![{}j](assets/ojg_comet.svg)](https://github.com/ohler55/ojg)
+# [![{}j](assets/ojg_comet.svg)](https://github.com/ngjaying/ojg)
 
-[![Build Status](https://github.com/ohler55/ojg/actions/workflows/CI.yml/badge.svg)](https://github.com/ohler55/ojg/actions)
-[![Coverage Status](https://coveralls.io/repos/github/ohler55/ojg/badge.svg?branch=master)](https://coveralls.io/github/ohler55/ojg?branch=master)
+[![Build Status](https://github.com/ngjaying/ojg/actions/workflows/CI.yml/badge.svg)](https://github.com/ngjaying/ojg/actions)
+[![Coverage Status](https://coveralls.io/repos/github/ngjaying/ojg/badge.svg?branch=master)](https://coveralls.io/github/ngjaying/ojg?branch=master)
 
 Optimized JSON for Go is a high performance parser with a variety of
 additional JSON tools. OjG is optimized to processing huge data sets
@@ -56,8 +56,8 @@ allows interfaces to be marshalled and unmarshalled.
 
 ## Installation
 ```
-go get github.com/ohler55/ojg
-go get github.com/ohler55/ojg/cmd/oj
+go get github.com/ngjaying/ojg
+go get github.com/ngjaying/ojg/cmd/oj
 
 ```
 
@@ -65,12 +65,12 @@ or just import in your `.go` files.
 
 ```
 import (
-    "github.com/ohler55/ojg/alt"
-    "github.com/ohler55/ojg/asm"
-    "github.com/ohler55/ojg/gen"
-    "github.com/ohler55/ojg/jp"
-    "github.com/ohler55/ojg/oj"
-    "github.com/ohler55/ojg/sen"
+    "github.com/ngjaying/ojg/alt"
+    "github.com/ngjaying/ojg/asm"
+    "github.com/ngjaying/ojg/gen"
+    "github.com/ngjaying/ojg/jp"
+    "github.com/ngjaying/ojg/oj"
+    "github.com/ngjaying/ojg/sen"
 )
 ```
 
@@ -117,7 +117,7 @@ to JSON with indentation
 
 See [all benchmarks](benchmarks.md)
 
-[Compare Go JSON parsers](https://github.com/ohler55/compare-go-json)
+[Compare Go JSON parsers](https://github.com/ngjaying/compare-go-json)
 
 ## Releases
 
@@ -125,9 +125,9 @@ See [CHANGELOG.md](CHANGELOG.md)
 
 ## Links
 
-- *Documentation*: [https://pkg.go.dev/github.com/ohler55/ojg](https://pkg.go.dev/github.com/ohler55/ojg)
+- *Documentation*: [https://pkg.go.dev/github.com/ngjaying/ojg](https://pkg.go.dev/github.com/ngjaying/ojg)
 
-- *GitHub* *repo*: https://github.com/ohler55/ojg
+- *GitHub* *repo*: https://github.com/ngjaying/ojg
 
 - *JSONPath* description: https://goessner.net/articles/JsonPath
 
@@ -136,15 +136,15 @@ See [CHANGELOG.md](CHANGELOG.md)
 
 #### Links of Interest
 
- - *Oj, a Ruby JSON parser*: http://www.ohler.com/oj/doc/index.html also at https://github.com/ohler55/oj
+ - *Oj, a Ruby JSON parser*: http://www.ohler.com/oj/doc/index.html also at https://github.com/ngjaying/oj
 
- - *OjC, a C JSON parser*: http://www.ohler.com/ojc/doc/index.html also at https://github.com/ohler55/ojc
+ - *OjC, a C JSON parser*: http://www.ohler.com/ojc/doc/index.html also at https://github.com/ngjaying/ojc
 
- - *Fast XML parser and marshaller on GitHub*: https://github.com/ohler55/ox
+ - *Fast XML parser and marshaller on GitHub*: https://github.com/ngjaying/ox
 
- - *Agoo, a high performance Ruby web server supporting GraphQL on GitHub*: https://github.com/ohler55/agoo
+ - *Agoo, a high performance Ruby web server supporting GraphQL on GitHub*: https://github.com/ngjaying/agoo
 
- - *Agoo-C, a high performance C web server supporting GraphQL on GitHub*: https://github.com/ohler55/agoo-c
+ - *Agoo-C, a high performance C web server supporting GraphQL on GitHub*: https://github.com/ngjaying/agoo-c
 
 #### Contributing
 

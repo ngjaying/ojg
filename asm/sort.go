@@ -7,7 +7,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ohler55/ojg/jp"
+	"github.com/ngjaying/ojg/jp"
 )
 
 func init() {

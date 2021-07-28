@@ -6,7 +6,7 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/ohler55/ojg/gen"
+	"github.com/ngjaying/ojg/gen"
 )
 
 type index int

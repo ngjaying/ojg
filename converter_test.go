@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ohler55/ojg"
-	"github.com/ohler55/ojg/tt"
+	"github.com/ngjaying/ojg"
+	"github.com/ngjaying/ojg/tt"
 )
 
 func TestConverterRFC3339(t *testing.T) {

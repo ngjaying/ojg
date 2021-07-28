@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ohler55/ojg/oj"
-	"github.com/ohler55/ojg/tt"
+	"github.com/ngjaying/ojg/oj"
+	"github.com/ngjaying/ojg/tt"
 )
 
 func TestParseString(t *testing.T) {

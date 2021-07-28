@@ -8,8 +8,8 @@ import (
 	"testing"
 	"testing/iotest"
 
-	"github.com/ohler55/ojg/sen"
-	"github.com/ohler55/ojg/tt"
+	"github.com/ngjaying/ojg/sen"
+	"github.com/ngjaying/ojg/tt"
 )
 
 const callbackSEN = `

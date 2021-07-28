@@ -8,9 +8,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ohler55/ojg"
-	"github.com/ohler55/ojg/oj"
-	"github.com/ohler55/ojg/sen"
+	"github.com/ngjaying/ojg"
+	"github.com/ngjaying/ojg/oj"
+	"github.com/ngjaying/ojg/sen"
 )
 
 func senParse(b *testing.B) {

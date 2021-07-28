@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ohler55/ojg"
-	"github.com/ohler55/ojg/alt"
+	"github.com/ngjaying/ojg"
+	"github.com/ngjaying/ojg/alt"
 )
 
 func (wr *Writer) colorJSON(data interface{}, depth int) {

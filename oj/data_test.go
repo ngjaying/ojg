@@ -2,7 +2,7 @@
 
 package oj_test
 
-import "github.com/ohler55/ojg/oj"
+import "github.com/ngjaying/ojg/oj"
 
 type data struct {
 	src string

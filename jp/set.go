@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/ohler55/ojg/alt"
-	"github.com/ohler55/ojg/gen"
+	"github.com/ngjaying/ojg/alt"
+	"github.com/ngjaying/ojg/gen"
 )
 
 type delFlagType struct{}

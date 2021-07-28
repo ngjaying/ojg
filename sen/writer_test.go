@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ohler55/ojg"
-	"github.com/ohler55/ojg/gen"
-	"github.com/ohler55/ojg/oj"
-	"github.com/ohler55/ojg/sen"
-	"github.com/ohler55/ojg/tt"
+	"github.com/ngjaying/ojg"
+	"github.com/ngjaying/ojg/gen"
+	"github.com/ngjaying/ojg/oj"
+	"github.com/ngjaying/ojg/sen"
+	"github.com/ngjaying/ojg/tt"
 )
 
 type wdata struct {
@@ -395,14 +395,14 @@ func TestWriteStructCreateKey(t *testing.T) {
 	opt.FullTypePath = true
 	s = sen.String(&sample, &opt)
 	tt.Equal(t, `{
-  ^: "github.com/ohler55/ojg/sen_test/Sample"
+  ^: "github.com/ngjaying/ojg/sen_test/Sample"
   x: 1
   y: 2
 }`, s)
 
 	opt.Indent = 0
 	s = sen.String(&sample, &opt)
-	tt.Equal(t, `{^:"github.com/ohler55/ojg/sen_test/Sample" x:1 y:2}`, s)
+	tt.Equal(t, `{^:"github.com/ngjaying/ojg/sen_test/Sample" x:1 y:2}`, s)
 
 	opt.FullTypePath = false
 	s = sen.String(&sample, &opt)

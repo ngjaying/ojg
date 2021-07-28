@@ -5,7 +5,7 @@ package main
 import (
 	"testing"
 
-	"github.com/ohler55/ojg/jp"
+	"github.com/ngjaying/ojg/jp"
 )
 
 func jpGet(b *testing.B) {

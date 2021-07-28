@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/ohler55/ojg"
-	"github.com/ohler55/ojg/alt"
+	"github.com/ngjaying/ojg"
+	"github.com/ngjaying/ojg/alt"
 )
 
 const (

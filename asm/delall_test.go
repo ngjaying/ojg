@@ -5,10 +5,10 @@ package asm_test
 import (
 	"testing"
 
-	"github.com/ohler55/ojg/asm"
-	"github.com/ohler55/ojg/jp"
-	"github.com/ohler55/ojg/sen"
-	"github.com/ohler55/ojg/tt"
+	"github.com/ngjaying/ojg/asm"
+	"github.com/ngjaying/ojg/jp"
+	"github.com/ngjaying/ojg/sen"
+	"github.com/ngjaying/ojg/tt"
 )
 
 func TestDelall(t *testing.T) {

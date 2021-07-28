@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ohler55/ojg"
-	"github.com/ohler55/ojg/gen"
+	"github.com/ngjaying/ojg"
+	"github.com/ngjaying/ojg/gen"
 )
 
 // DefaultRecomposer provides a shared Recomposer. Note that this should not

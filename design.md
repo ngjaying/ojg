@@ -11,9 +11,9 @@ complete and efficient JSONPath implementation.
 
 In all fairness I did embark on with some previous experience. Having
 written two JSON parser before. Both the Ruby
-[Oj](https://github.com/ohler55/oj) and the C parser
-[OjC](https://github.com/ohler55/ojc). Why not an
-[OjG](https://github.com/ohler55/ojg) for go.
+[Oj](https://github.com/ngjaying/oj) and the C parser
+[OjC](https://github.com/ngjaying/ojc). Why not an
+[OjG](https://github.com/ngjaying/ojg) for go.
 
 ## Planning
 
@@ -21,7 +21,7 @@ Like any journey it starts with the planning. Yeah, I know, it's called
 requirement gathering but casting it as planning a journey is more fun
 and this was all about enjoying the discoveries on the journey. The
 journey takes place in the land of OjG which stands for Oj for
-Go. [Oj](https://github.com/ohler55/oj) or Optimized JSON being a
+Go. [Oj](https://github.com/ngjaying/oj) or Optimized JSON being a
 popular gem I wrote for Ruby.
 
 First, JSON parsing and any frequently used operations such as

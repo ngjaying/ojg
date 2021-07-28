@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ohler55/ojg/alt"
-	"github.com/ohler55/ojg/gen"
-	"github.com/ohler55/ojg/jp"
-	"github.com/ohler55/ojg/tt"
+	"github.com/ngjaying/ojg/alt"
+	"github.com/ngjaying/ojg/gen"
+	"github.com/ngjaying/ojg/jp"
+	"github.com/ngjaying/ojg/tt"
 )
 
 type WithList struct {

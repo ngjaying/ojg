@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ohler55/ojg/gen"
+	"github.com/ngjaying/ojg/gen"
 )
 
 // String converts the value provided to a string. If conversion is not

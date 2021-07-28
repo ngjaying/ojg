@@ -7,10 +7,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ohler55/ojg"
-	"github.com/ohler55/ojg/gen"
-	"github.com/ohler55/ojg/sen"
-	"github.com/ohler55/ojg/tt"
+	"github.com/ngjaying/ojg"
+	"github.com/ngjaying/ojg/gen"
+	"github.com/ngjaying/ojg/sen"
+	"github.com/ngjaying/ojg/tt"
 )
 
 func TestSENTagPrimitive(t *testing.T) {

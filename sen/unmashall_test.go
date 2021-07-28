@@ -5,8 +5,8 @@ package sen_test
 import (
 	"testing"
 
-	"github.com/ohler55/ojg/sen"
-	"github.com/ohler55/ojg/tt"
+	"github.com/ngjaying/ojg/sen"
+	"github.com/ngjaying/ojg/tt"
 )
 
 func TestUnmarshal(t *testing.T) {

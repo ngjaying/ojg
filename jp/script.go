@@ -4,11 +4,10 @@ package jp
 
 import (
 	"fmt"
+	"github.com/ngjaying/ojg"
+	"github.com/ngjaying/ojg/gen"
 	"reflect"
 	"strconv"
-
-	"github.com/ohler55/ojg"
-	"github.com/ohler55/ojg/gen"
 )
 
 var (
@@ -183,7 +182,7 @@ func (s *Script) Eval(stack interface{}, data interface{}) interface{} {
 		case gen.Array:
 			v = td[vi]
 		}
-		if m, ok := v.(map[string]interface{}); ok{
+		if m, ok := v.(map[string]interface{}); ok {
 			m["__index"] = vi
 		}
 		// Eval script for each member of the list.

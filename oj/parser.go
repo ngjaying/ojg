@@ -8,8 +8,8 @@ import (
 	"math"
 	"unicode/utf8"
 
-	"github.com/ohler55/ojg/alt"
-	"github.com/ohler55/ojg/gen"
+	"github.com/ngjaying/ojg/alt"
+	"github.com/ngjaying/ojg/gen"
 )
 
 const (

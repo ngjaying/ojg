@@ -5,8 +5,8 @@ package jp_test
 import (
 	"testing"
 
-	"github.com/ohler55/ojg/jp"
-	"github.com/ohler55/ojg/tt"
+	"github.com/ngjaying/ojg/jp"
+	"github.com/ngjaying/ojg/tt"
 )
 
 func TestExprBuild(t *testing.T) {
