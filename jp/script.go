@@ -183,6 +183,9 @@ func (s *Script) Eval(stack interface{}, data interface{}) interface{} {
 		case gen.Array:
 			v = td[vi]
 		}
+		if m, ok := v.(map[string]interface{}); ok{
+			m["__index"] = vi
+		}
 		// Eval script for each member of the list.
 		copy(s.stack, s.template)
 		// resolve all expr members
